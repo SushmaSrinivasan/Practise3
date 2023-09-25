@@ -52,7 +52,7 @@ namespace Practise3
 
             foreach(Animal animal in animals)
             {
-                Console.WriteLine(animal.stats() );
+                Console.WriteLine(animal.Stats() );
                 animal.DoSound();
 
                 if(animal is IPerson p1)
@@ -72,7 +72,7 @@ namespace Practise3
             {
                 if(animal is Dog d)
                 {
-                    Console.WriteLine(d.stats());
+                    Console.WriteLine(d.Stats());
                     Console.WriteLine(d.RandomMethod());
                 }
             }

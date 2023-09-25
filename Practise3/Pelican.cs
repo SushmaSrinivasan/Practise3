@@ -14,9 +14,9 @@ namespace Practise3
         {
             WingSpan = 10.0;
         }
-        public override string stats()
+        public override string Stats()
         {
-            return base.stats() + $"WingSpan:{WingSpan}";
+            return base.Stats() + $"WingSpan:{WingSpan}";
         }
     }
 }

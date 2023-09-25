@@ -24,9 +24,9 @@ namespace Practise3
 
         ////13. All new attributes of Bird to be added in this Bird class
 
-        public override string stats()
+        public override string Stats()
         {
-            return base.stats() + $"WingSpan:{WingSpan}";
+            return base.Stats() + $"WingSpan:{WingSpan}";
         }
     }
 }

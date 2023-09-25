@@ -8,14 +8,14 @@ namespace Practise3
 {
      class Horse : Animal
     {
-        public string color { get; set; }
+        public string Color { get; set; }
 
         public Horse(string name, int age, double weight)
         {
             Name = name;
             Age = age;
             Weight = weight;
-            color = "white";
+            Color = "white";
 
         }
         public override void DoSound()
@@ -23,9 +23,9 @@ namespace Practise3
             Console.WriteLine($"{Name} whinnes..");
         }
 
-        public override string stats()
+        public override string Stats()
         {
-            return base.stats() + $"Color of Horse:{color}";
+            return base.Stats() + $"Color of Horse:{Color}";
         }
     }
 }

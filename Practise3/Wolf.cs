@@ -22,9 +22,9 @@ namespace Practise3
             Console.WriteLine($"{Name} Howls.");
         }
 
-        public override string stats()
+        public override string Stats()
         {
-            return base.stats() + $"Number of Sharp Teeths:{SharpTeeth}";
+            return base.Stats() + $"Number of Sharp Teeths:{SharpTeeth}";
         }
 
     }

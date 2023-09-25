@@ -12,8 +12,8 @@ namespace Practise3
         private string fName;
         private string lName;
         private int age;
-        private double height;
-        private double weight;
+        private readonly double height;
+        private readonly double weight;
 
         public int Age
         {

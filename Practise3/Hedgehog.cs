@@ -22,9 +22,9 @@ namespace Practise3
             Console.WriteLine($"{Name} Squeaks..");
         }
 
-        public override string stats()
+        public override string Stats()
         {
-            return base.stats() + $"Number of Spikes:{NoOfSpikes}";
+            return base.Stats() + $"Number of Spikes:{NoOfSpikes}";
         }
 
     }

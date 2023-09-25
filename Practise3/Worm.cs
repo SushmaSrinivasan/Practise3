@@ -22,9 +22,9 @@ namespace Practise3
             Console.WriteLine($"{Name} wriggles slowly");
         }
 
-        public override string stats()
+        public override string Stats()
         {
-            return base.stats() + $"IsPoisonous:{IsPoisonous}";
+            return base.Stats() + $"IsPoisonous:{IsPoisonous}";
         }
     }
 }

@@ -15,9 +15,9 @@ namespace Practise3
             Feathers = 1500;
         }
 
-        public override string stats()
+        public override string Stats()
         {
-            return base.stats() + $"Number of Feathers:{Feathers}";
+            return base.Stats() + $"Number of Feathers:{Feathers}";
         }
 
     }

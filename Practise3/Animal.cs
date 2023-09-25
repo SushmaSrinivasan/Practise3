@@ -15,7 +15,7 @@ namespace Practise3
         public abstract void DoSound();
      //14. All new attributes of Animal to be added in this Animal class
 
-        public virtual string stats()
+        public virtual string Stats()
         {
             return $"Name: {Name}, Age:{Age}, Weight:{Weight}";
         }

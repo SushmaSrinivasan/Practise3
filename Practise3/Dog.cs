@@ -22,9 +22,9 @@ namespace Practise3
             Console.WriteLine($"{Name} Barks...");
         }
 
-        public override string stats()
+        public override string Stats()
         {
-            return base.stats() + $"Breed:{Breed}";
+            return base.Stats() + $"Breed:{Breed}";
         }
 
         public string RandomMethod()

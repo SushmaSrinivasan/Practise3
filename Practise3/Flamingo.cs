@@ -8,16 +8,16 @@ namespace Practise3
 {
     class Flamingo : Bird
     {
-        public double legLength { get; set; }
+        public double LegLength { get; set; }
 
         public Flamingo(string name, int age, double weight) : base(name, age, weight)
         {
-            legLength = 12.5;
+            LegLength = 12.5;
         }
 
-        public override string stats()
+        public override string Stats()
         {
-            return base.stats() + $"LegLength:{legLength}";
+            return base.Stats() + $"LegLength:{LegLength}";
         }
     }
 }
