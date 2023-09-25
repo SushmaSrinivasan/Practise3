@@ -9,7 +9,7 @@ namespace Practise3
         {
             try
             {
-                PersonHandler handler = new PersonHandler();
+                PersonHandler handler = new();
                 Person p1 = handler.CreatePerson(30, "David", "Smith", 170, 65);
                 Console.WriteLine("Person 1 details:");
                 Console.WriteLine($"Firstname: {p1.FName}LastName:{p1.LName}");
@@ -28,7 +28,7 @@ namespace Practise3
                 Console.WriteLine(ex.Message );// age cannot be zero & name is invalid
             }
 
-            List<UserError> errors = new List<UserError>()
+            List<UserError> errors = new()
             {
                 new NumericInputError(),
                 new TextInputError()
@@ -40,7 +40,7 @@ namespace Practise3
                 Console.WriteLine(error.UEMessage());
             }
 
-            List<Animal> animals = new List<Animal>()
+            List<Animal> animals = new()
             {
                 new Bird("Eagle",2,2.0),
                 new Dog("Lab",1,3.5),
@@ -61,7 +61,7 @@ namespace Practise3
                 }
             }
 
-            List<Dog> dogs = new List<Dog>()
+            List<Dog> dogs = new()
             {
                 new Dog("Labrador",2,5.0),
                 new Dog("German Shepard",1,7.5),
