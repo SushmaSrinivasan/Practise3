@@ -42,12 +42,13 @@ namespace Practise3
 
             List<Animal> animals = new()
             {
-                new Bird("Eagle",2,2.0),
+                new Bird("Sparrow",2,2.0),
                 new Dog("Lab",1,3.5),
                 new Hedgehog("Hedgehog1",4,10.0),
                 new Horse("Horse1",3,15.5),
                 new Wolf("Wolf1",5,15.0),
-                new Worm("Worm1",1,1.5)
+                new Worm("Worm1",1,1.5),
+                new Wolfman("Wolfman1",70,65.0)
             };
 
             foreach(Animal animal in animals)
@@ -55,9 +56,9 @@ namespace Practise3
                 Console.WriteLine(animal.Stats() );
                 animal.DoSound();
 
-                if(animal is IPerson p1)
+                if(animal is IPerson)
                 {
-                    Console.WriteLine(p1.Talk());
+                    ((IPerson)animal).Talk();
                 }
             }
 
